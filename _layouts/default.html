@@ -5,17 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mijn Website</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=B612+Mono&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/composition.css">
+    <link rel="stylesheet" href="/assets/css/utilities.css">
+    <link rel="stylesheet" href="/assets/css/blocks.css">
+
 </head>
 <body>
     <header>
         <h1>{{page.title | capitalize}}</h1>
-        <h2>Welkom op het portfolio van <address class="author">Joske</address></h2>
+        <address class="author">Welkom op het portfolio van <a href="#" rel="author">Joske</a></address>
     </header>
 
-    {{content}}
+    <main id="{{page.layout}}">
+        {{content}}
+    </main>
 
-    <footer>
-        Created by SVB, based on the design of <a href="https://www.w3schools.com/w3css/tryw3css_templates_blog.htm">this</a> template from W3Schools
+    <footer class="text-dominant">
+        <p>
+            Created by SVB, based on the design of <a href="https://www.w3schools.com/w3css/tryw3css_templates_blog.htm">this</a> template from W3Schools
+        </p>
     </footer>
 </body>
 </html>

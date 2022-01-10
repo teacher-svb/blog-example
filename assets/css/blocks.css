@@ -1,0 +1,41 @@
+
+
+body {
+    background-color: var(--color-dominant);
+}
+
+#blogposts a:hover article {
+    background-color: var(--color-accent);
+    --elevation: .4;
+    box-shadow: calc(4.0px * var(--elevation))
+                calc(8.0px * var(--elevation))
+                calc(8.0px * var(--elevation))
+                hsl(0deg 0% 0% / calc(0.25 + calc(0.25 * calc(1.0 - var(--elevation)))));
+}
+
+#projects a:hover {
+    background-color: var(--color-accent);
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+footer {
+    background-color: #666;
+}
+
+header a,
+footer a {
+    display: inline-block;
+    background-color: var(--color-contrast);
+    padding: .12rem .25rem;
+    color: var(--color-dominant);
+}
+
+header a:hover,
+footer a:hover {
+    background-color: var(--color-complement);
+    color: var(--color-accent);
+}
