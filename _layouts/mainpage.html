@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<main>
+    <section id="blogposts">
+
+        {% for post in site.posts %}
+    
+        <article>
+            <img src="{{post.banner}}" alt="{{post.title}} image">
+            <h2>{{ post.title }}</h2>
+            <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%-d-%m-'%y" }}</time>
+            <p>{{ post.excerpt }}</p>
+        </article>
+    
+        {% endfor %}
+
+    </section>
+
+    <section id="about">
+        <img src="{{post.banner}}" alt="{{post.title}} image">
+
+        {{content}}
+    </section>
+    
+    <section id="projects">
+
+        {% for project in site.projects %}
+    
+        <article>
+            <img src="{{project.banner}}" alt="{{project.title}} image">
+            <h2>{{ project.title }}</h2>
+        </article>
+    
+        {% endfor %}
+
+    </section>
+</main>

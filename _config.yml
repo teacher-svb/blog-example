@@ -1,0 +1,32 @@
+baseurl: ""
+
+repo: "https://github.com/T-INFORMATICA/DumbSchool"
+github_user: "T-INFORMATICA"
+github_repo: "t-informatica.github.io/DumbSchool"
+
+
+
+collections:
+    courses:
+        output: true
+    tutorials:
+        output: true
+
+defaults:
+    - scope:
+          path: "_projects"
+      values:
+          excerpt_separator: "<!--more-->"
+          layout: "project"
+    - scope:
+          path: "_posts"
+      values:
+          excerpt_separator: "<!--more-->"
+          layout: "blogpost"
+    - scope:
+          path: ""
+      values:
+          layout: "mainpage"
+
+exclude:
+    - "*.script.md"
