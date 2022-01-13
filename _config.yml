@@ -1,8 +1,8 @@
 baseurl: ""
 
-repo: "https://github.com/T-INFORMATICA/DumbSchool"
-github_user: "T-INFORMATICA"
-github_repo: "t-informatica.github.io/DumbSchool"
+repo: "https://github.com/teacher-svb/blog-example"
+github_user: "teacher-svb"
+github_repo: "https://teacher-svb.github.io/blog-example"
 
 
 
@@ -14,13 +14,13 @@ defaults:
     - scope:
           path: "_projects"
       values:
-          banner: "assets/images/woods.jpg"
+          banner: "/blog-example/assets/images/woods.jpg"
           excerpt_separator: "<!--more-->"
           layout: "project"
     - scope:
           path: "_posts"
       values:
-          banner: "assets/images/woods.jpg"
+          banner: "/blog-example/assets/images/woods.jpg"
           excerpt_separator: "<!--more-->"
           layout: "blogpost"
     - scope:
