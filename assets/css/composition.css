@@ -1,8 +1,8 @@
 :root {
-    --color-dominant: #f0f0f0;
-    --color-complement: #ffffff;
-    --color-contrast: #000000;
-    --color-accent: #ddd;
+    --color-dominant: #ffbcbc;
+    --color-complement: #ffeaea;
+    --color-contrast: #4b0069;
+    --color-accent: #b444f5;
 }
 
 *, 
