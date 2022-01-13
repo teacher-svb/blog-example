@@ -8,7 +8,7 @@ Wij kregen voor Informatica een nogal vreemde opdracht: trek een kaart uit het s
 
 Zo gezegd, zo gedaan, ben ik eraan begonnen. De (nogal rare) superheld die ik had gecreëerd was de hulk, maar dan 2cm groot en met scharen als handen.
 
-![screenshot van mijn superhero website](../assets/images/superhero-website-1.PNG)
+![screenshot van mijn superhero website](assets/images/superhero-website-1.PNG)
 
 ## Waar het goed ging
 
