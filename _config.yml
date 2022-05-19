@@ -2,7 +2,7 @@ baseurl: ""
 
 repo: "https://github.com/teacher-svb/blog-example"
 github_user: "teacher-svb"
-github_repo: "https://teacher-svb.github.io/blog-example/"
+github_repo: "https://teacher-svb.github.io/blog-example"
 
 
 
